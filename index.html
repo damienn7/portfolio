@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2b.soft</title>
+    <link rel="stylesheet" href="./public/css/style.css" />
+    <link href="./public/assets/webfonts/all.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body class="gradient">
+    <header class="container-header">
+      <nav>
+        <div class="flex_start">
+          <h1 class="ext-writing color-white p-20">
+            <span class="begin_line color-dark letter_space"
+              >Tech Student _> </span
+            ><span class="text-color-ll">l</span><br class="br" /><span
+              id="text_display"
+            ></span
+            ><span class="cursor p-10" id="cursor_nav">_</span>
+          </h1>
+          <span class="material-symbols-outlined" id="menu"> menu_open </span>
+        </div>
+        <ul class="flex_inline" id="ul">
+          <li class="li active border-lighter p-10">
+            <a href="./pages/home.html" class="href color-white letter_space_10"
+              >_><span class="text-color-ll">ll</span>Home</a
+            ><span class="small-pastille">1</span>
+          </li>
+          <li class="li inactive border-lighter p-10">
+            <a href="./pages/xp.html" class="href color-white letter_space_10"
+              >_><span class="text-color-ll">ll</span>XP</a
+            ><span class="small-pastille">+1</span>
+          </li>
+          <li class="li inactive border-lighter p-10">
+            <a
+              href="./pages/project.html"
+              class="href color-white letter_space_10"
+              >_><span class="text-color-ll">ll</span>Project</a
+            ><span class="small-pastille">+1</span>
+          </li>
+          <li class="li inactive border-lighter p-10">
+            <a
+              href="./pages/favorites.html"
+              class="href color-white letter_space_10"
+              >_><span class="text-color-ll">ll</span>Favorites</a
+            ><span class="small-pastille">+1</span>
+          </li>
+          <li class="li inactive border-lighter p-10">
+            <a
+              href="./pages/textme.html"
+              class="href color-white letter_space_10"
+              >_><span class="text-color-ll">ll</span>Text me</a
+            ><span class="material-symbols-outlined" id="smile">
+              sentiment_satisfied
+            </span>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="ball" id="ball1"></div>
+    <div class="ball" id="ball2"></div>
+    <div class="ball" id="ball3"></div>
+    <div class="ball" id="ball4"></div>
+    <div class="ball" id="ball5"></div>
+    <div class="ball" id="ball6"></div>
+    <div class="ball" id="ball7"></div>
+    <main class="container-main">
+      <article class="presentation" id="presentation">
+        <section>
+          <h2 class="color-white">Damien NICOLLEAU</h2>
+          <div class="pics">
+            <img
+              src="https://www.norderbergs.com/wp-content/uploads/2020/09/background-shapes-png-1-Images-PNG-Transparent.png"
+              class="bg-pic"
+              alt="arriere plan de la photo de profil"
+            />
+            <img
+              src="./public/assets/images/profil.PNG"
+              alt="photo de profil"
+              class="profil-pic"
+            />
+          </div>
+          <p class="color-white age">24 ans</p>
+          <p class="color-repo repo">
+            enRecherchedAlternance = true ;<br />dateDeDebut = "18/09/2023";<br />dureeEnMois
+            = 14;
+          </p>
+        </section>
+      </article>
+    </main>
+    <div class="project">
+      <h2 class="color-white">Mes projets :</h2>
+      <div class="project-card">
+        <div class="card">
+          <h3 class="color-repo">{My_twitter}</h3>
+          <img
+            src="./public/assets/images/twitter_logo.png"
+            alt="image du projet wysiwyg"
+            class="img-project twitter"
+          />
+        </div>
+        <div class="card">
+          <h3 class="color-repo">{Sprite_generator}</h3>
+          <img
+          src="./public/assets/images/sprite_css.png"
+          alt="image du projet sprite generator"
+          class="img-project"
+        />
+        </div>
+        <div class="card">
+          <h3 class="color-repo">{My_wysiwig}</h3>
+          <img
+            src="./public/assets/images/presentationWysiwig.png"
+            alt="image du projet wysiwyg"
+            class="img-project"
+          />
+        </div>
+        <div class="card">
+          <h3 class="color-repo">{Battleship}</h3>
+          <img
+          src="./public/assets/images/battleship.png"
+          alt="image du projet battleship"
+          class="img-project"
+        />
+        </div>
+      </div>
+    </div>
+    <footer class="container-footer">
+      <p class="color-white">Hello</p>
+    </footer>
+
+    <script src="./public/js/script.js"></script>
+  </body>
+</html>
