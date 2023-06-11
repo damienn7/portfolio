@@ -637,7 +637,7 @@ li {
         background-color: #242038;
         overflow-x: hidden;
         position: absolute;
-        top: 420%;
+        top: 520%;
         width: 100%;
         height: auto;
         left: 0;
@@ -647,7 +647,7 @@ li {
 
     .about {
         position: absolute;
-        top: 160%;
+        top: 190%;
         width: 100%;
         margin: auto;
         border-top: 2px solid #725AC1;
