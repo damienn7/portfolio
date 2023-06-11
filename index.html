@@ -13,6 +13,7 @@
     />
     <link rel="stylesheet" href="./public/css/bootstrap-5.2.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
   </head>
   <body class="gradient">
     <header class="container-header">
@@ -175,15 +176,7 @@
               <label for="fname">Email</label>
             </div>
             <div class="col-75">
-              <input type="text" id="fname" name="firstname" placeholder="Your email..">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-25">
-              <label for="country">Subject</label>
-            </div>
-            <div class="col-75">
-              <input type="text" id="lname" name="lastname" placeholder="Your subject..">
+              <input type="email" id="email" name="email" placeholder="Your email..">
             </div>
           </div>
           <div class="row">
@@ -191,11 +184,19 @@
               <label for="subject">Subject</label>
             </div>
             <div class="col-75">
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              <input type="text" id="subject" name="subject" placeholder="Your subject.." required>
             </div>
           </div>
           <div class="row">
-            <input type="submit" value="Submit">
+            <div class="col-25">
+              <label for="content">Subject</label>
+            </div>
+            <div class="col-75">
+              <textarea id="content" name="content" placeholder="Write something.." style="height:200px" required></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input class="send" type="submit" value="Submit">
           </div>
         </form>
       </div>
