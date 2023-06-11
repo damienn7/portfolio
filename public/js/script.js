@@ -35,7 +35,7 @@ list_character();
 
 recursive();
 
-window.onload = function(){document.getElementById("ul").style.display = "none";document.getElementById("menu").innerHTML = "menu  <span class='small-pastille' id='pastille-menu' style='font-size:16px;'>+1</span>";
+window.onload = function(){document.getElementById("ul").style.display = "none";document.getElementById("menu").innerHTML = "menu  <span class='small-pastille' id='pastille-menu' style='font-size:16px;'>5</span>";
 let counter = 0;
 // console.log("hello ");
 document.getElementById("menu").onclick = function (event) {
@@ -44,7 +44,7 @@ document.getElementById("menu").onclick = function (event) {
         document.getElementById("menu").innerHTML = "menu_open";
         document.getElementById("ul").style.display = "flex";
     }else{
-        document.getElementById("menu").innerHTML = "menu <span class='small-pastille' id='pastille-menu' style='font-size:16px;'>+1</span>";
+        document.getElementById("menu").innerHTML = "menu <span class='small-pastille' id='pastille-menu' style='font-size:16px;'>5</span>";
         document.getElementById("pastille-menu").style.fontFamily = 'ubisoftsans-bold';
         document.getElementById("ul").style.display = "none";
     }
