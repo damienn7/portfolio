@@ -16,7 +16,7 @@ body {
 /* form contact */
 
 /* Style inputs, select elements and textareas */
-input[type=text], select, textarea{
+input[type=email], input[type=text], textarea{
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -45,7 +45,7 @@ input[type=text], select, textarea{
   /* Style the container */
   .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #8D86C9;
     padding: 20px;
   }
   

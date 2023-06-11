@@ -35,25 +35,29 @@ list_character();
 
 recursive();
 
-document.getElementsByClassName("send")[0].addEventListener("click", () => {
+// document.getElementsByClassName("send")[0].addEventListener("click", () => {
 
-
-    let body = document.getElementById("content").value;
-    let email = document.getElementsById("email").value;
-    let subject = document.getElementById("subject").value;
-    Email.send({
-        Host: "smtp.elasticemail.com",
-        Username: "damiennicolleau7@gmail.com",
-        Password: "8F0A875E2871223CED93D716F03F67A21989",
-        To: "damien.nicolleau@epitech.eu",
-        From: "damiennicolleau7@gmail.com",
-        Subject: subject + "["+email+"]",
-        Body: body
-    }).then(
-        message => alert("Votre email a bien été envoyé !")
-    );
-
+document.getElementsByTagName("form")[0].addEventListener("submit",function (event) {
+    event.preventDefault();
+    
+        let body = document.getElementById("content").value;
+        let email = document.getElementsById("email").value;
+        let subject = document.getElementById("subject").value;
+        Email.send({
+            Host: "smtp.elasticemail.com",
+            Username: "damiennicolleau7@gmail.com",
+            Password: "8F0A875E2871223CED93D716F03F67A21989",
+            To: "damien.nicolleau@epitech.eu",
+            From: "damiennicolleau7@gmail.com",
+            Subject: subject + "["+email+"]",
+            Body: body
+        }).then(
+            message => alert("Votre email a bien été envoyé !")
+        );
+    
 })
+
+
 
 window.onload = function(){document.getElementById("ul").style.display = "none";document.getElementById("menu").innerHTML = "menu  <span class='small-pastille' id='pastille-menu' style='font-size:16px;'>5</span>";
 let counter = 0;
