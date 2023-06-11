@@ -887,7 +887,7 @@ li {
 
     .about {
         position: absolute;
-        top: 160%;
+        top: 200%;
         width: 100%;
         margin: auto;
         border-top: 2px solid #725AC1;
@@ -901,7 +901,7 @@ li {
 
     .contact {
         position: absolute;
-        top: 360%;
+        top: 400%;
         width: 100%;
         margin: auto;
         border-top: 2px solid #725AC1;
