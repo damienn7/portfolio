@@ -46,7 +46,7 @@ document.getElementsByTagName("form")[0].addEventListener("submit",function (eve
         Email.send({
             Host: "smtp.elasticemail.com",
             Username: "damiennicolleau7@gmail.com",
-            Password: "8F0A875E2871223CED93D716F03F67A21989",
+            Password: "7177454e-9af8-495e-ab65-69db4002bd2b",
             To: "damien.nicolleau@epitech.eu",
             From: "damiennicolleau7@gmail.com",
             Subject: subject + "["+email+"]",
