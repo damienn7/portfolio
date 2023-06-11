@@ -893,7 +893,7 @@ li {
         border-top: 2px solid #725AC1;
         border-bottom: 2px solid #725AC1;
         background-color: #242038;
-        height: 1400px;
+        height: 1700px;
         left: 0;
         margin-top: 50px;
         padding: 50px;
@@ -901,7 +901,7 @@ li {
 
     .contact {
         position: absolute;
-        top: 550%;
+        top: 480%;
         width: 100%;
         margin: auto;
         border-top: 2px solid #725AC1;
@@ -922,7 +922,7 @@ li {
         height: 800px;
         width: 100%;
         position: absolute;
-        top: 550px;
+        top: 650px;
         left: 0;
         margin-top: 40px;
         padding: 20px;
