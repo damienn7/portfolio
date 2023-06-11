@@ -41,7 +41,7 @@ document.getElementsByTagName("form")[0].addEventListener("submit",function (eve
     event.preventDefault();
     
         let body = document.getElementById("content").value;
-        let email = document.getElementsById("email").value;
+        let email = document.getElementById("email").value;
         let subject = document.getElementById("subject").value;
         Email.send({
             Host: "smtp.elasticemail.com",
