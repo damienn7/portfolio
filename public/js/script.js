@@ -56,10 +56,20 @@ document.getElementsByTagName("form")[0].addEventListener("submit",function (eve
         );
     
 })
+let bool = false;
+document.getElementsByClassName("href")[1].addEventListener("click",function(){
+bool = true;
+})
 
+if (bool == true) {
+    document.getElementsByClassName("href")[1].innerHTML = '_><span class="text-color-ll">ll</span>Projects</a>';
+}
 
+// if (document.getElementById("menu").innerText != "menu_open" && ) {
+    
+// }
 
-window.onload = function(){document.getElementById("ul").style.display = "none";document.getElementById("menu").innerHTML = "menu  <span class='small-pastille' id='pastille-menu' style='font-size:16px;'>5</span>";
+window.onload = function(){document.getElementById("ul").style.display = "none";document.getElementById("menu").innerHTML = "menu  <span class='small-pastille' id='pastille-menu' style='font-size:16px;'>4</span>";
 let counter = 0;
 // console.log("hello ");
 document.getElementById("menu").onclick = function (event) {
@@ -68,7 +78,11 @@ document.getElementById("menu").onclick = function (event) {
         document.getElementById("menu").innerHTML = "menu_open";
         document.getElementById("ul").style.display = "flex";
     }else{
-        document.getElementById("menu").innerHTML = "menu <span class='small-pastille' id='pastille-menu' style='font-size:16px;'>5</span>";
+        if (bool==true) {
+            document.getElementById("menu").innerHTML = "menu";
+        }else{
+            document.getElementById("menu").innerHTML = "menu <span class='small-pastille' id='pastille-menu' style='font-size:16px;'>4</span>";
+        }
         document.getElementById("pastille-menu").style.fontFamily = 'ubisoftsans-bold';
         document.getElementById("ul").style.display = "none";
     }
