@@ -876,7 +876,7 @@ li {
         background-color: #242038;
         overflow-x: hidden;
         position: absolute;
-        top: 520%;
+        top: 620%;
         width: 100%;
         height: 70px;
         left: 0;
@@ -887,13 +887,13 @@ li {
 
     .about {
         position: absolute;
-        top: 200%;
+        top: 250%;
         width: 100%;
         margin: auto;
         border-top: 2px solid #725AC1;
         border-bottom: 2px solid #725AC1;
         background-color: #242038;
-        height: 1200px;
+        height: 1400px;
         left: 0;
         margin-top: 50px;
         padding: 50px;
@@ -901,7 +901,7 @@ li {
 
     .contact {
         position: absolute;
-        top: 400%;
+        top: 450%;
         width: 100%;
         margin: auto;
         border-top: 2px solid #725AC1;
@@ -919,7 +919,7 @@ li {
         border-top: 2px solid #725AC1;
         border-bottom: 2px solid #725AC1;
         background-color: #242038;
-        height: 600px;
+        height: 800px;
         width: 100%;
         position: absolute;
         top: 550px;
