@@ -83,7 +83,7 @@ document.getElementById("menu").onclick = function (event) {
         }else{
             document.getElementById("menu").innerHTML = "menu <span class='small-pastille' id='pastille-menu' style='font-size:16px;'>4</span>";
         }
-        document.getElementById("pastille-menu").style.fontFamily = 'ubisoftsans-bold';
+        // document.getElementById("pastille-menu").style.fontFamily = 'ubisoftsans-bold';
         document.getElementById("ul").style.display = "none";
     }
 }
