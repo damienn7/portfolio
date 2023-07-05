@@ -1,7 +1,13 @@
-[THIS IS MY PORTFOLIO]
+[Voici mon portfolio]  
+Développé en HTML, CSS et Javascript  
+  
 # 💫 About Me:
-I am currently learning web development :-)
-
+Je suis actuellement étudiant en développement web et en recherche d'alternance :-)  
+D'origine Nantaise, de retour à Nantes il y a trois ans après avoir vécu 7 ans à l'étranger, j'ai eu divers emplois qui m'ont appris ce qui me passionnaient réellement.  
+Alors, je me suis reconvertis en développement web en Novembre 2022 au sein de la web@cadémie de Paris.  
+Contactez-moi pour organiser un échange ensemble.  
+damien.nicolleau@epitech.eu  
+0767878977  
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/damien-nicolleau) 
