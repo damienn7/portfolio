@@ -59,7 +59,7 @@
         </nav>
       </div>
       <nav class="p-3 fixed-bottom bg-transparent" style="width: 50px;">
-        <a href="#navbar" style="width: 50px;"><svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+        <a href="#navbar" style="width: 100px;"><svg xmlns="http://www.w3.org/2000/svg" width="200%" height="200%" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
           </svg></a>
       </nav>
@@ -79,7 +79,7 @@
           </h4>
         </div>
         <div class="row p-20">
-          <picture class="col-3">
+          <picture class="col-4">
             <source
               srcset="./public/assets/images/profil.PNG"
               type="image/png"
@@ -87,12 +87,13 @@
             <img
               src="./public/assets/images/profil.PNG"
               class="img-thumbnail img-fluid rounded float-right"
-              width="200"
-              height="200"
+              width="100%"
+              height="auto"
               alt="photo de profil"
             />
           </picture>
-          <div class="col-3 d-flex flex-column align-items-sm-center">
+          <div class="row col-8 align-items-sm-center">
+          <div class=" col-4 d-flex flex-column align-items-sm-center">
             <span
               class="d-inline-block"
               tabindex="0"
@@ -102,17 +103,16 @@
             <a href="tel:+33767878977">
               <img
                 src="./public/assets/images/phone_logo.png"
-                height="100"
-                width="100"
+                height="auto"
+                width="100%"
                 style="cursor: pointer"
                 id="phone"
                 alt="icone de téléphone"
               />
             </a>
             </span>
-            <h5 class="text-white p-3">&#x1F446;</h5>
           </div>
-          <div class="col-3 d-flex flex-column align-items-sm-center">
+          <div class=" col-4 d-flex flex-column align-items-sm-center">
             <span
               class="d-inline-block"
               tabindex="0"
@@ -122,17 +122,16 @@
             <a class="col" href="https://github.com/damienn7?tab=repositories" target="_blank" style="text-align: center;">
               <img
                 src="./public/assets/images/github_colored_logo.png"
-                height="100"
-                width="100"
+                height="auto"
+                width="100%"
                 style="cursor: pointer"
                 id="github"
                 alt="icone de github"
               />
             </a>
             </span>
-            <h5 class="text-white p-3">&#x1F446;</h5>
           </div>
-          <div class="col-3 d-flex flex-column align-items-sm-center">
+          <div class=" col-4 d-flex flex-column align-items-sm-center">
             <span
               class="d-inline-block"
               tabindex="0"
@@ -142,15 +141,15 @@
             <a class="col" href="https://www.linkedin.com/in/damien-nicolleau/" target="_blank" style="text-align: center;">
               <img
                 src="./public/assets/images/linkedin_blue_logo.png"
-                height="100"
-                width="100"
+                height="auto"
+                width="100%"
                 style="cursor: pointer"
                 id="linkedin"
                 alt="icone de linkedin"
               />
               </a>
             </span>
-            <h5 class="text-white p-3">&#x1F446;</h5>
+          </div>
           </div>
         </div>
         <div class="row p-2 d-flex flex-column align-items-sm-center">
@@ -172,7 +171,7 @@
         </div>
         <div class="row p-4">
           <h5
-            class="fs-2 text-primary"
+            class="fs-2 text-white"
             style="height: 35px; text-align: center; letter-spacing: 2px"
           >
             En recherche d'<strong>alternance</strong>
@@ -180,22 +179,22 @@
           <table class="table table-transparent p-6 fs-3" style="margin-left: -20px;margin-right: -10px;margin-top: 20px;">
             <thead>
               <tr>
-                <th scope="col" class="text-info">Durée</th>
-                <th scope="col" class="text-info">Date de début</th>
-                <th scope="col" class="text-info">Rythme</th>
+                <th scope="col" class="text-white">Durée</th>
+                <th scope="col" class="text-white">Date de début</th>
+                <th scope="col" class="text-white">Rythme</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td class="text-primary">14 mois</td>
-                <td class="text-primary">18 septembre 2023</td>
-                <td class="text-primary">3 semaines / 1 semaine</td>
+                <td class="text-white">14 mois</td>
+                <td class="text-white">18 septembre 2023</td>
+                <td class="text-white">3 semaines / 1 semaine</td>
               </tr>
             </tbody>
           </table>
           <p class="fs-3 text-white">
-            <br />Après avoir vécu 7 ans à l'étranger avec ma famille, de retour à Nantes, j'ai réalisá une formation en tant que développeur web et web mobile que je n'ai pas poursuivis, j'ai ensuite eu divers emplois en support bureautique / utilisateur qui m'ont donnés l'envie de me reconvertir dans le développement web. <br />Alors, j'ai cherché une formation différente de ce que j'avais déjà pu faire auparavant en développement web et j'ai découvert la Web@cadémie. En novembre 2022, j'ai été sélectionné pour passer l'ultime épreuve de sélection de la Web@cadémie de Paris,une piscine. Au cours de cette 
-            <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="la piscine est une suite d'examens ayant comme but final d'initier à la programmation des personnes n'ayant jamais codé/e auparavant, de collaborer avec ses camarades et de s'intégrer dans un groupe"><u class="text-info" style="cursor: help">piscine</u></span> de trois semaines, j'ai été immergé dans l'univers de la programmation et j'ai pu découvrir l'importance de l'entraide et du dépassement de soi qui avaient leur place dans ce domaine de métier. J'ai ensuite été admis et débuté mon aventure dans le digital.<br /><br />Si vous êtes intéressé par un apprenti développeur qui a soif de pratique et de découverte !<br> Contactez-moi afin de convenir d'un échange ensemble. &#x1F447;
+            <br />Après avoir vécu 7 ans à l'étranger avec ma famille, de retour à Nantes, j'ai réalisá une formation en tant que développeur web et web mobile que je n'ai pas poursuivis, j'ai ensuite eu divers emplois en support bureautique / utilisateur qui m'ont donnés l'envie de me reconvertir dans le développement web. <br />Alors, j'ai cherché une formation différente de ce que j'avais déjà pu faire auparavant en développement web. En novembre 2022, j'ai été sélectionné pour passer l'ultime épreuve de sélection de la Web@cadémie de Paris,une piscine. Au cours de cette 
+            <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="la piscine est une suite d'examens ayant comme but final d'initier à la programmation des personnes n'ayant jamais codé/e auparavant, de collaborer avec ses camarades et de s'intégrer dans un groupe"><u class="text-info" style="cursor: help">piscine</u></span> de trois semaines, j'ai été immergé dans l'univers de la programmation et j'ai pu découvrir l'importance de l'entraide et du dépassement de soi qui avaient leur place dans ce domaine de métier. J'ai ensuite été admis et débuté mon aventure dans le digital.<br /><br />Si vous êtes intéressé par un apprenti développeur qui a soif de pratique et de découverte !<br> Contactez-moi afin de convenir d'un échange ensemble. <a href="#contact">&#x1F447;</a>
           </p>
         </div>
       </div>
@@ -228,8 +227,7 @@
           <div id="projets" class="container">
             <p class="text-white p-2 fs-4">
               Je vais vous présenter quelques projets réalisés en formation,
-              mais d'abord parlons un peu de la <strong>Web@cadémie</strong> ...
-            </p>
+              mais d'abord parlons un peu de la <strong>formation</strong>.            </p>
             <div
               class="d-flex align-items-sm-center justify-content-center mx-auto"
               style="height: 140px; width: 100%; margin: auto"
@@ -256,10 +254,10 @@
                 data-toggle="tooltip"
                 title="Fondée en 2010 et située au Kremlin-Bicêtre1, l'école possède un second campus à Lyon ouvert en 2013, un troisième à Strasbourg depuis 2018 et un quatrième à Nancy également depuis 2018. Réservé à des jeunes qui n'ont pas le baccalauréat, ce programme forme en deux ans au métier de développeur Web. Les élèves, âgés de 18 à 25 ans, sont formés gratuitement et suivent une période de remise à niveau. Elle forme en deux ans ses élèves au métier de développeur Web, la seconde année s'effectuant en alternance. Leur capacité à mettre en œuvre des algorithmes est testée avant le recrutement, puis au cours d'un stage intensif préalable à la scolarité qui élimine une proportion significatives des candidats (20 sur 45 en 2015). La formation proposée par l'école est labellisée Grande École du Numérique. Les élèves ont le statut de stagiaire en formation continue. Microsoft accompagne l'initiative depuis le début. En 2016, afin d'encourager les filles à se lancer dans les métiers de l'informatique, l'école créé sa première promotion « ambition féminine »."
                 ><u class="text-info" style="cursor: help">Web@cadémie</u></span></strong> est une formation qui utilise une pédagogie par projet qui vise à rendre ses alumnis autonomes et indépendants dans la conception d'applications web et dans la recherche d'informations afin d'être préparés à rencontrer diverses problématiques en entreprise et à pouvoir y répondre.
-            <br><br>Maintenant voici quelques <strong>projets</strong> réalisés dans le cadre de la <strong>formation</strong> &#x1F447;</p>
+            <br><br>Maintenant voici quelques <strong>projets</strong> réalisés dans le cadre de la <strong>formation</strong></p>
             <div class="d-flex flex-column align-items-sm-center">
                 <div class="row p-4 d-flex flex-column align-items-sm-center">    
-                <h5 class="text-white fs-4"> { Framework CSS } <span class="text-primary">[1 semaine]</span></h5>
+                <h5 class="text-white fs-4"> { Framework CSS } <span class="text-info">[1 semaine]</span></h5>
                     <a
                     href="https://github.com/damienn7/framework_css"
                     target="_blank"
@@ -281,7 +279,7 @@
                   </p>
                 </div>
                 <div class="row p-4 d-flex flex-column align-items-sm-center">    
-                    <h5 class="text-white fs-4">{ Colle Battleship en CLI } <span class="text-primary">[4 heures]</span></h5>
+                    <h5 class="text-white fs-4">{ Colle Battleship en CLI } <span class="text-info">[4 heures]</span></h5>
                     <a
                         href="https://github.com/damienn7/battleship_port"
                         target="_blank"
@@ -304,7 +302,7 @@
                       </p>
                     </div>
                     <div class="row p-4 d-flex flex-column align-items-sm-center"> 
-                        <h5 class="text-white fs-4">{ Générateur de Sprite et de CSS } <span class="text-primary">[2 semaines]</span></h5>   
+                        <h5 class="text-white fs-4">{ Générateur de Sprite et de CSS } <span class="text-info">[2 semaines]</span></h5>   
                         <a
                             href="https://github.com/damienn7/sprite"
                             target="_blank"
@@ -328,7 +326,7 @@
                           </p>
                         </div>
                         <div class="row p-4 d-flex flex-column align-items-sm-center">
-                            <h5 class="text-white fs-4">{ Colle d'affichage SQL en CLI } <span class="text-primary">[4 heures]</span></h5>   
+                            <h5 class="text-white fs-4">{ Colle d'affichage SQL en CLI } <span class="text-info">[4 heures]</span></h5>   
                             <a
                                 href="https://github.com/damienn7/mysql"
                                 target="_blank"
@@ -365,13 +363,12 @@
                                 </ul>
                             </div>
                             <div class="row p-4 d-flex flex-column align-items-sm-center">
-                                <h4 class="text-white fs-2"><span class="text-info"><</span> Compétences <span class="text-info">/></span></Liste></h4>
+                                <h4 class="text-white fs-2"><span class="text-info"><</span>Connaissances<span class="text-info">/></span></Liste></h4>
                                 <p class="p-2 lh-lg fs-2">
                                     <img width="270" height="56" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&amp;logo=css3&amp;logoColor=white" alt="CSS3">
                                     <img width="270" height="56" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&amp;logo=html5&amp;logoColor=white" alt="HTML5">
                                     <img width="270" height="56" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&amp;logo=javascript&amp;logoColor=%23F7DF1E" alt="JavaScript">
                                     <img width="270" height="56" src="https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&amp;logo=php&amp;logoColor=white" alt="PHP">
-                                    <img width="270" height="56" src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&amp;logo=netlify&amp;logoColor=#00C7B7" alt="Netlify">
                                     <img width="270" height="56" src="https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&amp;logo=jquery&amp;logoColor=white" alt="jQuery">
                                     <img width="270" height="56" src="https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&amp;logo=laravel&amp;logoColor=white" alt="Laravel">
                                     <img width="270" height="56" src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&amp;logo=node.js&amp;logoColor=white" alt="NodeJS">
@@ -379,14 +376,12 @@
                                     <img width="270" height="56" src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&amp;logo=SASS&amp;logoColor=white" alt="SASS">
                                     <img width="270" height="56" src="https://img.shields.io/badge/symfony-%23000000.svg?style=for-the-badge&amp;logo=symfony&amp;logoColor=white" alt="Symfony">
                                     <img width="270" height="56" src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&amp;logo=tailwind-css&amp;logoColor=white" alt="TailwindCSS">
-                                    <img width="270" height="56" src="https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&amp;logo=vuedotjs&amp;logoColor=%234FC08D" alt="Vue.js">
                                     <img width="270" height="56" src="https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&amp;logo=apache&amp;logoColor=white" alt="Apache">
                                     <img width="270" height="56" src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&amp;logo=mysql&amp;logoColor=white" alt="MySQL">
                                     <img width="270" height="56" src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&amp;logo=mongodb&amp;logoColor=white" alt="MongoDB">
                                     <img width="270" height="56" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&amp;logo=linux&amp;logoColor=black" alt="LINUX">
                                     <img width="270" height="56" src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&amp;logo=docker&amp;logoColor=white" alt="Docker">
                                     <img width="270" height="56" src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&amp;logo=postman&amp;logoColor=white" alt="Postman">
-                                    <img width="270" height="56" src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&amp;logo=firefox&amp;logoColor=#FF7139" alt="Portfolio">
                                     <img width="270" height="56" src="https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&amp;logo=Trello&amp;logoColor=white" alt="Trello"></p>
 
                             </div>
@@ -450,24 +445,24 @@
             </div>
           </form>
           </div>
-          <div class="d-flex flex-row  align-items-sm-center" style=" border-top-left-radius:20px;border-top-right-radius: 20px; height: 200px;background-color: #272727;">
+          <div class="d-flex flex-row  align-items-sm-center" style=" border-top-left-radius:20px;border-top-right-radius: 20px; height: auto; padding:2rem;background-color: #272727;">
 
                 <!-- Icons -->
                 <a class="col " href="tel:0767878977" style="text-align: center;">
-                    <img src="./public/assets/images/phone_logo.png" width="60" height="60" alt="icone de téléphone">
+                    <img src="./public/assets/images/phone_logo.png" width="70%" height="auto" alt="icone de téléphone">
                 </a>
                 <a class="col" href="mailto:damien.nicolleau@epitech.eu" style="text-align: center;">
-                    <img src="./public/assets/images/email_icone_arobase.png" width="60" height="60" alt="icone d'email">
+                    <img src="./public/assets/images/email_icone_arobase.png" width="70%" height="auto" alt="icone d'email">
                 </a>
                 <a class="col" href="https://www.linkedin.com/in/damien-nicolleau/" target="_blank" style="text-align: center;">
-                    <img src="./public/assets/images/linkedin_blue_logo.png" width="60" height="60" alt="icone de cv">
+                    <img src="./public/assets/images/linkedin_blue_logo.png" width="70%" height="auto" alt="icone de cv">
                 </a>
                 <a class="col" href="https://github.com/damienn7?tab=repositories" target="_blank" style="text-align: center;">
-                    <img src="./public/assets/images/github_colored_logo.png" width="60" height="60" alt="icone de cv">
+                    <img src="./public/assets/images/github_colored_logo.png" width="70%" height="auto" alt="icone de cv">
                 </a>
                 <a class="col" href="./public/assets/file/cv--damien--nicolleau.pdf" style="text-align: center;" download>
                     <!-- <i class="fa fa-file text-white" style="font-size: 50px;"></i> -->
-                    <img src="./public/assets/images/icone_cv_bleu.png" width="60" height="60" alt="icone de cv">
+                    <img src="./public/assets/images/icone_cv_bleu.png" width="70%" height="auto" alt="icone de cv">
                 </a>
 
         </div>
